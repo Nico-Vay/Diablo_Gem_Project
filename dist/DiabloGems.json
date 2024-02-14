@@ -1,0 +1,175 @@
+{
+  "gems": [
+    {
+      "1": {
+        "gem/trickshot_gem": {
+          "name": "Trickshot Gem",
+          "platin": 0
+        },
+        "gem/everlasting_torment": {
+          "name": "Everlasting Torment",
+          "platin": 0
+        },
+        "gem/the_black_rose": {
+          "name": "The Black Rose",
+          "platin": 0
+        },
+        "gem/chained_death": {
+          "name": "Chained Death",
+          "platin": 0
+        },
+        "gem/berserkers_eye": {
+          "name": "Berserker's Eye",
+          "platin": 0
+        },
+        "gem/mocking_laughter": {
+          "name": "Mocking Laughter",
+          "platin": 0
+        },
+        "gem/zod_stone": {
+          "name": "Zod Stone",
+          "platin": 0
+        },
+        "gem/caarsens_invigoration": {
+          "name": "Caarsen's Invigoration",
+          "platin": 0
+        },
+        "gem/defiant_soul": {
+          "name": "Defiant soul",
+          "platin": 0
+        },
+        "gem/freedom_and_devotion": {
+          "name": "Freedom and Devotion",
+          "platin": 0
+        },
+        "gem/respite_stone": {
+          "name": "Respite Stone",
+          "platin": 0
+        },
+        "gem/seleds_weakening": {
+          "name": "Seled's Weakening",
+          "platin": 0
+        },
+        "gem/pain_of_subjugation": {
+          "name": "Pain of Subjugation",
+          "platin": 0
+        },
+        "gem/nightmare_wreath": {
+          "name": "Nightmare Wreath",
+          "platin": 0
+        }
+      },
+      "2": {
+        "gem/power_and_command": {
+          "name": "Power & Command",
+          "platin": 0
+        },
+        "gem/the_hunger": {
+          "name": "The Hunger",
+          "platin": 0
+        },
+        "gem/bloody_reach": {
+          "name": "Bloody Reach",
+          "platin": 0
+        },
+        "gem/cutthroats_grin": {
+          "name": "Cutthroats Grin",
+          "platin": 0
+        },
+        "gem/lightning_core": {
+          "name": "Lighting Core",
+          "platin": 0
+        },
+        "gem/followers_burden": {
+          "name": "Followers Burden",
+          "platin": 0
+        },
+        "gem/unity_crystal": {
+          "name": "Unity Crystal",
+          "platin": 0
+        },
+        "gem/battleguard": {
+          "name": "Battleguard",
+          "platin": 0
+        }
+      },
+      "2_5": {
+        "gem/bottled_hope": {
+          "name": "Bottled Hope",
+          "platin": 0
+        },
+        "gem/phoenix_ashes": {
+          "name": "Phoenix Ashes",
+          "platin": 0
+        },
+        "gem/bsj": {
+          "name": "Blood-Soaked Jade",
+          "platin": 0
+        },
+        "gem/chip_of_stoned_flesh": {
+          "name": "Chip of Stoned Flesh",
+          "platin": 0
+        },
+        "gem/echoing_shade": {
+          "name": "Echoing Shade",
+          "platin": 0
+        },
+        "gem/howlers_call": {
+          "name": "Howler\\s Call",
+          "platin": 0
+        },
+        "gem/zwensons_haunting": {
+          "name": "Zwenson's Haunting",
+          "platin": 0
+        },
+        "gem/seeping_bile": {
+          "name": "Seeping Bile",
+          "platin": 0
+        },
+        "gem/blessing_of_the_worthy": {
+          "name": "Blessing of the Worthy",
+          "platin": 0
+        }
+      },
+      "3_5": {
+        "gem/bottled_hope": {
+          "name": "Bottled Hope",
+          "platin": 0
+        },
+        "gem/phoenix_ashes": {
+          "name": "Phoenix Ashes",
+          "platin": 0
+        },
+        "gem/bsj": {
+          "name": "Blood-Soaked Jade",
+          "platin": 0
+        },
+        "gem/chip_of_stoned_flesh": {
+          "name": "Chip of Stoned Flesh",
+          "platin": 0
+        },
+        "gem/echoing_shade": {
+          "name": "Echoing Shade",
+          "platin": 0
+        },
+        "gem/howlers_call": {
+          "name": "Howler\\s Call",
+          "platin": 0
+        },
+        "gem/zwensons_haunting": {
+          "name": "Zwenson's Haunting",
+          "platin": 0
+        },
+        "gem/seeping_bile": {
+          "name": "Seeping Bile",
+          "platin": 0
+        },
+        "gem/blessing_of_the_worthy": {
+          "name": "Blessing of the Worthy",
+          "platin": 0
+        }
+      }
+    }
+
+  ]
+}
