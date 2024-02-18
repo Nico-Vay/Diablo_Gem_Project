@@ -13,256 +13,256 @@ let gems = {
             "1": {
                 "gem/trickshot_gem": {
                     "name": "Trickshot Gem",
-                    "platin": 649,
+                    "platin": 633,
                     "rating": "1"
                 },
                 "gem/everlasting_torment": {
                     "name": "Everlasting Torment",
-                    "platin": 549,
+                    "platin": 753,
                     "rating": "1"
                 },
                 "gem/the_black_rose": {
                     "name": "The Black Rose",
-                    "platin": 508,
+                    "platin": 524,
                     "rating": "1"
                 },
                 "gem/chained_death": {
                     "name": "Chained Death",
-                    "platin": 547,
+                    "platin": 542,
                     "rating": "1"
                 },
                 "gem/berserkers_eye": {
                     "name": "Berserker's Eye",
-                    "platin": 593,
+                    "platin": 675,
                     "rating": "1"
                 },
                 "gem/mocking_laughter": {
                     "name": "Mocking Laughter",
-                    "platin": 542,
+                    "platin": 602,
                     "rating": "1"
                 },
                 "gem/zod_stone": {
                     "name": "Zod Stone",
-                    "platin": 626,
+                    "platin": 581,
                     "rating": "1"
                 },
                 "gem/caarsens_invigoration": {
-                    "name": "Caarsen's Invigoration",
-                    "platin": 650,
+                    "name": "Ca'arsen's Invigoration",
+                    "platin": 683,
                     "rating": "1"
                 },
                 "gem/defiant_soul": {
                     "name": "Defiant soul",
-                    "platin": 560,
+                    "platin": 519,
                     "rating": "1"
                 },
                 "gem/freedom_and_devotion": {
                     "name": "Freedom and Devotion",
-                    "platin": 558,
+                    "platin": 616,
                     "rating": "1"
                 },
                 "gem/respite_stone": {
                     "name": "Respite Stone",
-                    "platin": 600,
+                    "platin": 609,
                     "rating": "1"
                 },
                 "gem/seleds_weakening": {
                     "name": "Seled's Weakening",
-                    "platin": 584,
+                    "platin": 622,
                     "rating": "1"
                 },
                 "gem/pain_of_subjugation": {
                     "name": "Pain of Subjugation",
-                    "platin": 614,
+                    "platin": 604,
                     "rating": "1"
                 },
                 "gem/nightmare_wreath": {
                     "name": "Nightmare Wreath",
-                    "platin": 563,
+                    "platin": 539,
                     "rating": "1"
                 },
                 "gem/los_focused_gaze": {
                     "name": "Lo's Focused Gaze",
-                    "platin": 605,
+                    "platin": 644,
                     "rating": "1"
                 },
                 "gem/exigent_echo": {
                     "name": "Exigent Echo",
-                    "platin": 780,
+                    "platin": 655,
                     "rating": "1"
                 },
                 "gem/blessed_pebble": {
                     "name": "Blessed Pebble",
-                    "platin": 591,
+                    "platin": 517,
                     "rating": "1"
                 },
                 "gem/heartstone": {
                     "name": "Heartstone",
-                    "platin": 534,
+                    "platin": 507,
                     "rating": "1"
                 },
                 "gem/eye_of_the_unyielding": {
                     "name": "Eye Of The Unyielding",
-                    "platin": 750,
+                    "platin": 655,
                     "rating": "1"
                 },
                 "gem/unrefined_passage": {
                     "name": "Unrefined Passage",
-                    "platin": 583,
+                    "platin": 631,
                     "rating": "1"
                 }
             },
             "2": {
                 "gem/power_and_command": {
                     "name": "Power & Command",
-                    "platin": 4042,
+                    "platin": 3949,
                     "rating": "2"
                 },
                 "gem/the_hunger": {
                     "name": "The Hunger",
-                    "platin": 2886,
+                    "platin": 2518,
                     "rating": "2"
                 },
                 "gem/bloody_reach": {
                     "name": "Bloody Reach",
-                    "platin": 2307,
+                    "platin": 2211,
                     "rating": "2"
                 },
                 "gem/cutthroats_grin": {
                     "name": "Cutthroats Grin",
-                    "platin": 2365,
+                    "platin": 2115,
                     "rating": "2"
                 },
                 "gem/lightning_core": {
                     "name": "Lightning Core",
-                    "platin": 2823,
+                    "platin": 2562,
                     "rating": "2"
                 },
                 "gem/followers_burden": {
                     "name": "Follower's Burden",
-                    "platin": 3521,
+                    "platin": 4449,
                     "rating": "2"
                 },
                 "gem/unity_crystal": {
                     "name": "Unity Crystal",
-                    "platin": 2418,
+                    "platin": 2393,
                     "rating": "2"
                 },
                 "gem/battleguard": {
                     "name": "Battleguard",
-                    "platin": 2192,
+                    "platin": 2320,
                     "rating": "2"
                 },
                 "gem/the_abiding_curse": {
                     "name": "The Abiding Curse",
-                    "platin": 2100,
+                    "platin": 2202,
                     "rating": "2"
                 },
                 "gem/volatility_shard": {
                     "name": "Volatility Shard",
-                    "platin": 2164,
+                    "platin": 2239,
                     "rating": "2"
                 },
                 "gem/kir_sling": {
                     "name": "Kir Sling",
-                    "platin": 2100,
+                    "platin": 2624,
                     "rating": "2"
                 },
                 "gem/pain_clasp": {
                     "name": "Pain Clasp",
-                    "platin": 7169,
+                    "platin": 7202,
                     "rating": "2"
                 },
                 "gem/vipers_bite": {
                     "name": "Viper's Bite",
-                    "platin": 5900,
+                    "platin": 5804,
                     "rating": "2"
                 },
                 "gem/ironbane": {
                     "name": "Ironbane",
-                    "platin": 2076,
+                    "platin": 2243,
                     "rating": "2"
                 },
                 "gem/mothers_lament": {
                     "name": "Mother's Lament",
-                    "platin": 13500,
+                    "platin": 14012,
                     "rating": "2"
                 },
                 "gem/igneous_scorn": {
                     "name": "Igneous Scorn",
-                    "platin": 3205,
+                    "platin": 2945,
                     "rating": "2"
                 }
             },
             "2_5": {
                 "gem/bottled_hope": {
                     "name": "Bottled Hope",
-                    "platin": 45430,
+                    "platin": 43604,
                     "rating": "2/5"
                 },
                 "gem/phoenix_ashes": {
                     "name": "Phoenix Ashes",
-                    "platin": 24523,
+                    "platin": 23619,
                     "rating": "2/5"
                 },
                 "gem/bsj": {
                     "name": "Blood-Soaked Jade",
-                    "platin": 44780,
+                    "platin": 50388,
                     "rating": "2/5"
                 },
                 "gem/chip_of_stoned_flesh": {
                     "name": "Chip of Stoned Flesh",
-                    "platin": 27850,
+                    "platin": 22422,
                     "rating": "2/5"
                 },
                 "gem/echoing_shade": {
                     "name": "Echoing Shade",
-                    "platin": 39713,
+                    "platin": 64000,
                     "rating": "2/5"
                 },
                 "gem/howlers_call": {
                     "name": "Howler's Call",
-                    "platin": 24631,
+                    "platin": 24982,
                     "rating": "2/5"
                 },
                 "gem/zwensons_haunting": {
                     "name": "Zwenson's Haunting",
-                    "platin": 23835,
+                    "platin": 37613,
                     "rating": "2/5"
                 },
                 "gem/seeping_bile": {
                     "name": "Seeping Bile",
-                    "platin": 61907,
+                    "platin": 57129,
                     "rating": "2/5"
                 },
                 "gem/blessing_of_the_worthy": {
                     "name": "Blessing of the Worthy",
-                    "platin": 27577,
+                    "platin": 31516,
                     "rating": "2/5"
                 },
                 "gem/maw_of_the_deep": {
                     "name": "Maw Of The Deep",
-                    "platin": 39551,
+                    "platin": 41317,
                     "rating": "2/5"
                 },
                 "gem/hellfire_fragment": {
                     "name": "Hellfire Fragment",
-                    "platin": 24000,
+                    "platin": 19027,
                     "rating": "2/5"
                 },
                 "gem/starfire_shard": {
                     "name": "Starfire Shard",
-                    "platin": 64000,
+                    "platin": 61079,
                     "rating": "2/5"
                 },
                 "gem/spiteful_blood": {
                     "name": "Spiteful Blood",
-                    "platin": 31749,
+                    "platin": 31204,
                     "rating": "2/5"
                 },
                 "gem/frozen_heart": {
                     "name": "Frozen Heart",
-                    "platin": 43698,
+                    "platin": 33483,
                     "rating": "2/5"
                 },
                 "gem/gloom_cask": {
@@ -272,59 +272,59 @@ let gems = {
                 },
                 "gem/void_spark": {
                     "name": "Void Spark",
-                    "platin": 56243,
+                    "platin": 57308,
                     "rating": "2/5"
                 },
                 "gem/concentrated_will": {
                     "name": "Concentrated Will",
-                    "platin": 20000,
+                    "platin": 27891,
                     "rating": "2/5"
                 }
             },
             "3_5": {
                 "gem/bottled_hope": {
                     "name": "Bottled Hope",
-                    "platin": 64730,
+                    "platin": NA,
                     "rating": "3/5"
                 },
                 "gem/phoenix_ashes": {
                     "name": "Phoenix Ashes",
-                    "platin": 41000,
+                    "platin": 47690,
                     "rating": "3/5"
                 },
                 "gem/bsj": {
                     "name": "Blood-Soaked Jade",
-                    "platin": 79833,
+                    "platin": 94801,
                     "rating": "3/5"
                 },
                 "gem/chip_of_stoned_flesh": {
                     "name": "Chip of Stoned Flesh",
-                    "platin": 27827,
+                    "platin": 25146,
                     "rating": "3/5"
                 },
                 "gem/echoing_shade": {
                     "name": "Echoing Shade",
-                    "platin": 75913,
+                    "platin": NA,
                     "rating": "3/5"
                 },
                 "gem/howlers_call": {
                     "name": "Howler's Call",
-                    "platin": 42496,
+                    "platin": 35621,
                     "rating": "3/5"
                 },
                 "gem/zwensons_haunting": {
                     "name": "Zwenson's Haunting",
-                    "platin": 80224,
+                    "platin": 70196,
                     "rating": "3/5"
                 },
                 "gem/seeping_bile": {
                     "name": "Seeping Bile",
-                    "platin": 77875,
+                    "platin": 73333,
                     "rating": "3/5"
                 },
                 "gem/blessing_of_the_worthy": {
                     "name": "Blessing of the Worthy",
-                    "platin": 37313,
+                    "platin": 35956,
                     "rating": "3/5"
                 },
                 "gem/maw_of_the_deep": {
@@ -334,32 +334,32 @@ let gems = {
                 },
                 "gem/hellfire_fragment": {
                     "name": "Hellfire Fragment",
-                    "platin": 37574,
+                    "platin": 45663,
                     "rating": "3/5"
                 },
                 "gem/starfire_shard": {
                     "name": "Starfire Shard",
-                    "platin": 66466,
+                    "platin": 107738,
                     "rating": "3/5"
                 },
                 "gem/spiteful_blood": {
                     "name": "Spiteful Blood",
-                    "platin": 42195,
+                    "platin": 35306,
                     "rating": "3/5"
                 },
                 "gem/frozen_heart": {
                     "name": "Frozen Heart",
-                    "platin": 65547,
+                    "platin": 57050,
                     "rating": "3/5"
                 },
                 "gem/gloom_cask": {
                     "name": "Gloom Cask",
-                    "platin": 93000,
+                    "platin": 73574,
                     "rating": "3/5"
                 },
                 "gem/void_spark": {
                     "name": "Void Spark",
-                    "platin": 75354,
+                    "platin": 75345,
                     "rating": "3/5"
                 },
                 "gem/concentrated_will": {
@@ -371,17 +371,17 @@ let gems = {
             "4_5": {
                 "gem/bottled_hope": {
                     "name": "Bottled Hope",
-                    "platin": 85000,
+                    "platin": NA,
                     "rating": "4/5"
                 },
                 "gem/phoenix_ashes": {
                     "name": "Phoenix Ashes",
-                    "platin": 110400,
+                    "platin": 106489,
                     "rating": "4/5"
                 },
                 "gem/bsj": {
                     "name": "Blood-Soaked Jade",
-                    "platin": 130000,
+                    "platin": NA,
                     "rating": "4/5"
                 },
                 "gem/chip_of_stoned_flesh": {
@@ -391,12 +391,12 @@ let gems = {
                 },
                 "gem/echoing_shade": {
                     "name": "Echoing Shade",
-                    "platin": 90000,
+                    "platin": NA,
                     "rating": "4/5"
                 },
                 "gem/howlers_call": {
                     "name": "Howler's Call",
-                    "platin": 111360,
+                    "platin": 111659,
                     "rating": "4/5"
                 },
                 "gem/zwensons_haunting": {
@@ -406,32 +406,32 @@ let gems = {
                 },
                 "gem/seeping_bile": {
                     "name": "Seeping Bile",
-                    "platin": 95000,
+                    "platin": NA,
                     "rating": "4/5"
                 },
                 "gem/blessing_of_the_worthy": {
                     "name": "Blessing of the Worthy",
-                    "platin": 54000,
+                    "platin": NA,
                     "rating": "4/5"
                 },
                 "gem/maw_of_the_deep": {
                     "name": "Maw Of The Deep",
-                    "platin": 100000,
+                    "platin": NA,
                     "rating": "4/5"
                 },
                 "gem/hellfire_fragment": {
                     "name": "Hellfire Fragment",
-                    "platin": 50000,
+                    "platin": NA,
                     "rating": "4/5"
                 },
                 "gem/starfire_shard": {
                     "name": "Starfire Shard",
-                    "platin": 120000,
+                    "platin": NA,
                     "rating": "4/5"
                 },
                 "gem/spiteful_blood": {
                     "name": "Spiteful Blood",
-                    "platin": 67737,
+                    "platin": NA,
                     "rating": "4/5"
                 },
                 "gem/frozen_heart": {
@@ -441,12 +441,12 @@ let gems = {
                 },
                 "gem/gloom_cask": {
                     "name": "Gloom Cask",
-                    "platin": 120000,
+                    "platin": NA,
                     "rating": "4/5"
                 },
                 "gem/void_spark": {
                     "name": "Void Spark",
-                    "platin": 90000,
+                    "platin": NA,
                     "rating": "4/5"
                 },
                 "gem/concentrated_will": {
@@ -458,87 +458,87 @@ let gems = {
             "5_5": {
                 "gem/bottled_hope": {
                     "name": "Bottled Hope",
-                    "platin": 100000,
+                    "platin": NA,
                     "rating": "5/5"
                 },
                 "gem/phoenix_ashes": {
                     "name": "Phoenix Ashes",
-                    "platin": 190000,
+                    "platin": NA,
                     "rating": "5/5"
                 },
                 "gem/bsj": {
                     "name": "Blood-Soaked Jade",
-                    "platin": 160000,
+                    "platin": NA,
                     "rating": "5/5"
                 },
                 "gem/chip_of_stoned_flesh": {
                     "name": "Chip of Stoned Flesh",
-                    "platin": 98000,
+                    "platin": NA,
                     "rating": "5/5"
                 },
                 "gem/echoing_shade": {
                     "name": "Echoing Shade",
-                    "platin": 90000,
+                    "platin": NA,
                     "rating": "5/5"
                 },
                 "gem/howlers_call": {
                     "name": "Howler's Call",
-                    "platin": 150000,
+                    "platin": NA,
                     "rating": "5/5"
                 },
                 "gem/zwensons_haunting": {
                     "name": "Zwenson's Haunting",
-                    "platin": 110000,
+                    "platin": NA,
                     "rating": "5/5"
                 },
                 "gem/seeping_bile": {
                     "name": "Seeping Bile",
-                    "platin": 97000,
+                    "platin": NA,
                     "rating": "5/5"
                 },
                 "gem/blessing_of_the_worthy": {
                     "name": "Blessing of the Worthy",
-                    "platin": 85000,
+                    "platin": NA,
                     "rating": "5/5"
                 },
                 "gem/maw_of_the_deep": { // B
                     "name": "Maw Of The Deep",
-                    "platin": 154000,
+                    "platin": NA,
                     "rating": "5/5"
                 },
                 "gem/hellfire_fragment": {
                     "name": "Hellfire Fragment",
-                    "platin": 90000,
+                    "platin": NA,
                     "rating": "5/5"
                 },
                 "gem/starfire_shard": {
                     "name": "Starfire Shard",
-                    "platin": 140000,
+                    "platin": NA,
                     "rating": "5/5"
                 },
                 "gem/spiteful_blood": {
                     "name": "Spiteful Blood",
-                    "platin": 90000,
+                    "platin": NA,
                     "rating": "5/5"
                 },
                 "gem/frozen_heart": {
                     "name": "Frozen Heart",
-                    "platin": 240000,
+                    "platin": NA,
                     "rating": "5/5"
                 },
                 "gem/gloom_cask": {
                     "name": "Gloom Cask",
-                    "platin": 180000,
+                    "platin": NA,
                     "rating": "5/5"
                 },
                 "gem/void_spark": {
                     "name": "Void Spark",
-                    "platin": 120000,
+                    "platin": NA,
                     "rating": "5/5"
                 },
                 "gem/concentrated_will": {
                     "name": "Concentrated Will",
-                    "platin": 160000,
+                    "platin": NA,
                     "rating": "5/5"
                 }
             }
