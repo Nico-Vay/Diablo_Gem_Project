@@ -284,7 +284,7 @@ let gems = {
             "3_5": {
                 "gem/bottled_hope": {
                     "name": "Bottled Hope",
-                    "platin": NA,
+                    "platin": 0,
                     "rating": "3/5"
                 },
                 "gem/phoenix_ashes": {
@@ -304,7 +304,7 @@ let gems = {
                 },
                 "gem/echoing_shade": {
                     "name": "Echoing Shade",
-                    "platin": NA,
+                    "platin": 0,
                     "rating": "3/5"
                 },
                 "gem/howlers_call": {
@@ -371,7 +371,7 @@ let gems = {
             "4_5": {
                 "gem/bottled_hope": {
                     "name": "Bottled Hope",
-                    "platin": NA,
+                    "platin": 0,
                     "rating": "4/5"
                 },
                 "gem/phoenix_ashes": {
@@ -381,7 +381,7 @@ let gems = {
                 },
                 "gem/bsj": {
                     "name": "Blood-Soaked Jade",
-                    "platin": NA,
+                    "platin": 0,
                     "rating": "4/5"
                 },
                 "gem/chip_of_stoned_flesh": {
@@ -391,7 +391,7 @@ let gems = {
                 },
                 "gem/echoing_shade": {
                     "name": "Echoing Shade",
-                    "platin": NA,
+                    "platin": 0,
                     "rating": "4/5"
                 },
                 "gem/howlers_call": {
@@ -406,32 +406,32 @@ let gems = {
                 },
                 "gem/seeping_bile": {
                     "name": "Seeping Bile",
-                    "platin": NA,
+                    "platin": 0,
                     "rating": "4/5"
                 },
                 "gem/blessing_of_the_worthy": {
                     "name": "Blessing of the Worthy",
-                    "platin": NA,
+                    "platin": 0,
                     "rating": "4/5"
                 },
                 "gem/maw_of_the_deep": {
                     "name": "Maw Of The Deep",
-                    "platin": NA,
+                    "platin": 0,
                     "rating": "4/5"
                 },
                 "gem/hellfire_fragment": {
                     "name": "Hellfire Fragment",
-                    "platin": NA,
+                    "platin": 0,
                     "rating": "4/5"
                 },
                 "gem/starfire_shard": {
                     "name": "Starfire Shard",
-                    "platin": NA,
+                    "platin": 0,
                     "rating": "4/5"
                 },
                 "gem/spiteful_blood": {
                     "name": "Spiteful Blood",
-                    "platin": NA,
+                    "platin": 0,
                     "rating": "4/5"
                 },
                 "gem/frozen_heart": {
@@ -441,12 +441,12 @@ let gems = {
                 },
                 "gem/gloom_cask": {
                     "name": "Gloom Cask",
-                    "platin": NA,
+                    "platin": 0,
                     "rating": "4/5"
                 },
                 "gem/void_spark": {
                     "name": "Void Spark",
-                    "platin": NA,
+                    "platin": 0,
                     "rating": "4/5"
                 },
                 "gem/concentrated_will": {
@@ -458,87 +458,87 @@ let gems = {
             "5_5": {
                 "gem/bottled_hope": {
                     "name": "Bottled Hope",
-                    "platin": NA,
+                    "platin": 0,
                     "rating": "5/5"
                 },
                 "gem/phoenix_ashes": {
                     "name": "Phoenix Ashes",
-                    "platin": NA,
+                    "platin": 0,
                     "rating": "5/5"
                 },
                 "gem/bsj": {
                     "name": "Blood-Soaked Jade",
-                    "platin": NA,
+                    "platin": 0,
                     "rating": "5/5"
                 },
                 "gem/chip_of_stoned_flesh": {
                     "name": "Chip of Stoned Flesh",
-                    "platin": NA,
+                    "platin": 0,
                     "rating": "5/5"
                 },
                 "gem/echoing_shade": {
                     "name": "Echoing Shade",
-                    "platin": NA,
+                    "platin": 0,
                     "rating": "5/5"
                 },
                 "gem/howlers_call": {
                     "name": "Howler's Call",
-                    "platin": NA,
+                    "platin": 0,
                     "rating": "5/5"
                 },
                 "gem/zwensons_haunting": {
                     "name": "Zwenson's Haunting",
-                    "platin": NA,
+                    "platin": 0,
                     "rating": "5/5"
                 },
                 "gem/seeping_bile": {
                     "name": "Seeping Bile",
-                    "platin": NA,
+                    "platin": 0,
                     "rating": "5/5"
                 },
                 "gem/blessing_of_the_worthy": {
                     "name": "Blessing of the Worthy",
-                    "platin": NA,
+                    "platin": 0,
                     "rating": "5/5"
                 },
                 "gem/maw_of_the_deep": { // B
                     "name": "Maw Of The Deep",
-                    "platin": NA,
+                    "platin": 0,
                     "rating": "5/5"
                 },
                 "gem/hellfire_fragment": {
                     "name": "Hellfire Fragment",
-                    "platin": NA,
+                    "platin": 0,
                     "rating": "5/5"
                 },
                 "gem/starfire_shard": {
                     "name": "Starfire Shard",
-                    "platin": NA,
+                    "platin": 0,
                     "rating": "5/5"
                 },
                 "gem/spiteful_blood": {
                     "name": "Spiteful Blood",
-                    "platin": NA,
+                    "platin": 0,
                     "rating": "5/5"
                 },
                 "gem/frozen_heart": {
                     "name": "Frozen Heart",
-                    "platin": NA,
+                    "platin": 0,
                     "rating": "5/5"
                 },
                 "gem/gloom_cask": {
                     "name": "Gloom Cask",
-                    "platin": NA,
+                    "platin": 0,
                     "rating": "5/5"
                 },
                 "gem/void_spark": {
                     "name": "Void Spark",
-                    "platin": NA,
+                    "platin": 0,
                     "rating": "5/5"
                 },
                 "gem/concentrated_will": {
                     "name": "Concentrated Will",
-                    "platin": NA,
+                    "platin": 0,
                     "rating": "5/5"
                 }
             }
