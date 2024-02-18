@@ -5,6 +5,8 @@
 
 const list = document.querySelector("#list");
 
+
+//Die Datenbank
 let gems = {
     "gems": [
         {
@@ -545,46 +547,40 @@ let gems = {
     ]
 };
 
-
+//Globale Variable die die  "garantierte" Wahrscheinlichkeit angibt
 var guaranteedPercentage = 0.99;
 
-
+//Methode um alle gems zu holen
 function getAllGems() {
    
     return gems.gems[0];
 }
-/**
- * Get-Methode, die alle Filme ausliefert
- * @returns Alle Filme der Datenbank
- * 
- */
+//Methode um alle gems unabhänig von den Sternen in einem Array zu haben
 function getAllGemsInArray() {
     let gems = [];
 
-    //Object.values(this.getAllGems).forEach((elem) => Object.values(elem).forEach(gem => gems.push(gem)));
+    //geht jedes rating durch und push jeden einzelnen Gems in das Array gems
     Object.values(getAllGems()).forEach(elem => Object.values(elem).forEach(gem => gems.push(gem)));
 
     return gems;
 }
-
+//Methode um alle Gems mit gewissem rating zu kriegen
 function getAllGemsByRating(rating) {
     return getAllGems()[rating];
 }
 
-/**
- * Get-Methode, die einen konkreten Film ausliefert
- * @param { string } movieId die Id des Films, der ausgeliefert werden soll
- * @returns den Film mit der gegebenen movie-id
- */
+//Methode um Gem abhängig vom Namen zu kriegen
 function getGemByName(gemName) {
     return getAllGemsInArray().find(gem => gem.name === gemName);
 }
 
-
+//Methode um die Gems auf index.html auszugeben
+//Dabei wird der div .list neue children angehängt
 function updateList() {
 
-
+    //Für alle gems 
     getAllGemsInArray().forEach(elem => {
+        //Erstellung eines neuen div im dokument
         var gem = document.createElement('div');
         gem.className = 'gem';
         gem.setAttribute('name', elem.name)
@@ -594,19 +590,22 @@ function updateList() {
         '<h2>' +'Rating: ' + elem.rating + '</h2>' +
         '<h2> ' + 'Platin: ' + elem.platin + '</h2>' +
         '<h2> ' + 'Eternal orb: ' + (elem.platin / 10) + '</h2>' +
-            '<h2> ' + 'Euro: ' + (Math.round(elem.platin / 6) / 100) + '&euro;' + '</h2>'
-
+        '<h2> ' + 'Euro: ' + (Math.round(elem.platin / 6) / 100) + '&euro;' + '</h2>'
+        //Anhängen an list
         list.appendChild(gem);
     });
 
     addToggle()
 }
 
-
+//Methode um Gems auszuwählen
 function toggleMarking(element) {
+    //Alle markierten Gems werden geholt
     var check = document.querySelectorAll('.marked');
+    //Wenn es keinen markierten Gem gibt, wird der derzeitige markiert
     if (check.length == 0) {
         element.classList.toggle('marked');
+    //Falls es schon eins gibt, wird es ausgetauscht
     } else if (check.length != 0 && check[0] != element) {
         check[0].classList.toggle('marked');
         element.classList.toggle('marked');
@@ -615,8 +614,11 @@ function toggleMarking(element) {
     }
 }
 
+//Methode um den neuerstellten Gems die Methode toggleMarking zu geben
 function addToggle() {
 
+    //Alle elemente mit Klasse ".gem" werden geholt
+    //und denen wird die Methode togglemarking hinzugefügt
     document.querySelectorAll('.gem').forEach(function (element) {
         element.addEventListener('click', function () {
             toggleMarking(this);
@@ -624,33 +626,26 @@ function addToggle() {
     });
 }
 
-
+//Berechung des Preises und Ausgabe
 function calcPrice() {
     let name = document.querySelectorAll('.marked')[0].getAttribute('name');
     let amount = document.getElementById('valueAmount').value;
     let price =( Math.round(getGemByName(name).platin / 6) / 100) * amount ;
-    alert("Preis: " + price + "&euro;" );
+    alert('Preis: ' + price +  ' Euro' );
     return;
 }
 
 
-function addGem(rating, name, platin) {
-
-
-    let nameLine = name.replace(" ", "_");
-    console.log(getAllGemsByRating(1)["gem/" + nameLine]);
-}
-
+//Methode um Seitenverlinkung zu ermöglichen
 function changeSite(site) { 
 
     window.open(site, '_self');
 
-
 }
 
 
 
-
+//Methode um die Eingabe in Prozent umzurechnen
 function getCurrentGemPercentage() {
 
     let perc = 0;
@@ -683,9 +678,12 @@ function getCurrentGemPercentage() {
 
 }
 
+//Methode, die dazu dient N für den gegebenen Prozentwert zu berechnen
+//Binmialverteilung
 function findN(k, pis) {
     let n = k;
     let answer = binomialCoefficient(n, k) * pis ** k * (1 - pis) ** (n - k);
+    //Wird solange multipliziert, bis das Ergebnis ÜBER guaranteedPercentage liegt
     while (answer < (guaranteedPercentage )) {
 
         answer = 1 - getCumulativePercentages(n, k, pis);
@@ -693,23 +691,25 @@ function findN(k, pis) {
         
     }
 
+    //Danach wird der Wert geviertelt, bis der Wert wieder drunter liegt
     while (answer > guaranteedPercentage) {
        
         n = n - Math.floor(n / 4);
         answer = 1 - getCumulativePercentages(n, k, pis);
         
     }
-    console.log("fert")
+    //Als letztes wird einfach erhöht, bis das erste mal über guaranteedPercentage kommt
     while (answer < guaranteedPercentage) {
         answer = 1 - getCumulativePercentages(n, k, pis);
         n++;
         
     }
-    console.log(n)
+
+    //gerundet, um sicherzugehen, dass der Wert Element der natürlichen Zahlen ist
     return Math.ceil(n);
 
 }
-
+//Addieren des Gegenereignis
 function getCumulativePercentages(n, k, pis) {
 
     let cum = 0;
@@ -747,7 +747,7 @@ function binomialCoefficient(n, k) {
     return Math.round(res);
 }
 
-
+//Methode Ausgabe Prozent
 function calcPercentage() {
 
     
@@ -756,7 +756,7 @@ function calcPercentage() {
     let output = document.createTextNode('Du benötigst im Durschnitt ' + calc + ' Crest.');
  
 
-
+    //Wenn es schon Ausgabe gibt, soll die alte Ausgabe gelöscht werden
     if (doc.children != null) {
         doc.removeChild(doc.firstChild)
     }

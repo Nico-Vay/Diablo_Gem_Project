@@ -1,10 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+<style>
+
+	.header {
+		text-align:center;
+	}
+	.nav {
+		text-align:center;
+	}
+	.div {
+	margin-left: 350px;
+	margin-right: 350px;
+	}
+
+
+</style>
+
+	<header class="header">
+		<h1>Berechnung</h1>
+	</header>
+	<nav class="nav">
+		<button onclick="changeSite('index.html')">Startseite</button>
+	</nav>
 	<body>
 
-		<div>
-			<h1>Berechnung</h1>
-			<h2>Gebe eine Wahrscheinlichkeit an und erfahre wie viele Versuche du im Durschnitt bräuchtest um einen 5er Gem zu bekommen</h2>
+		<div class="div">
+			<h2>Gebe den Gem und die Anzahl um herauszufinden, wie viele Crest du benötigst für ein garantiertes Eintreffen</h2>
 			<h3>Garantierte 5er Gems ausgeschlossen</h3>
 			<select name="Quality" id="quality">
 				<option value="1">1 Stern</option>
@@ -18,7 +39,7 @@
 			<button onclick="calcPercentage()">Wahrscheinlichkeit berechnen</button>
 		</div>	
 
-		<div id="outputPerc"> 
+		<div id="outputPerc" class="div"> 
 		</div>
 
 	</body>

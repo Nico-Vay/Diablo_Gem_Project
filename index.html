@@ -1,25 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
 <style>
-    /* Styling for marked elements */
+
+    .header {
+	text-align:center;
+}
     .marked {
-        background-color: yellow;
+	box-shadow: 0 0 0 2px black;
     }
+    
+    .gem {
+	 max-width: 500px;
+	 background-color: #d3d3d3;
+	 flex: 1;
+	 margin-right: 20px;
+	 
+    }
+     .navigation {
+	text-align:center;
+	margin-bottom: 50px;
+
+   }
+   .list {
+	margin-left: 135px;
+	margin-right: 135px;
+	display: flex;
+  	flex-wrap: wrap;
+	 
+	  
+}
+
+.list > div {
+  flex: 50%; /* or - flex: 0 50% - or - flex-basis: 50% - */
+  
+  margin-bottom: 10px;
+}
 </style>
+<header class="header">
+
+ <h1>Diablo Immortal Gempreise </h1>
+
+	
+</header>
+<nav class="navigation">
+<input type="number" name"Anzahl" value="1" min="0" id="valueAmount"> 
+<button onclick="markAndSubmit()">Preis berechnen</button>
+<button onclick="changeSite('stats.html')">Stats</button>
+
+</nav>
 <body onload="updateList();">
 
-<h1> Liste Aller Gems </h1>
 
-<div id="list">
+<div id="list" class="list">
 
 </div>
-<button onclick="markAndSubmit()">Mark and Submit</button>
+
 
 <script>
 function markAndSubmit() {
     var markedData = getMarkedSubchildren();
     if (markedData.length === 0) {
-        alert("Please mark a subchild before submitting.");
+        alert("Waehle einen Gem aus!");
         return;
     }
     
@@ -38,10 +79,6 @@ function markAndSubmit() {
 	calcPrice();
 }
 
-function toggleMarking(element) {
-    element.classList.toggle('marked');
-}
-
 function getMarkedSubchildren() {
     var markedSubchildren = [];
     var markedElements = document.querySelectorAll('.marked');
@@ -53,20 +90,8 @@ function getMarkedSubchildren() {
     return markedSubchildren.join(', ');
 }
 </script>
-
-
-
-<!-- Replace 'action' and 'method' attributes with your form's action and method -->
 <form id="marked" onsubmit="getAllGems()">
 </form>
-
-<script>
-document.querySelectorAll('.gem').forEach(function(element) {
-    element.addEventListener('click', function() {
-        toggleMarking(this);
-    });
-});
-</script>
 <script src="dist/database.js" defer></script>
 </body>
 
